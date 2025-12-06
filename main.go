@@ -8,6 +8,6 @@ func monthlyBillIncrease(costPerSend, numLastMonth, numThisMonth int) int {
 	return thisMonthBill - lastMonthBill
 }
 
-func getBillForMonth(zcostPerSend, messagesSent int) {
+func getBillForMonth(bill, costPerSend, messagesSent int) {
 	bill = costPerSend * messagesSent
 }
