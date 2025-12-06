@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+func monthlyBillIncrease(costPerSend, numLastMonth, numThisMonth int) int {
+	var lastMonthBill int
+	var thisMonthBill int
+	getBillForMonth(lastMonthBill, costPerSend, numLastMonth)
+	getBillForMonth(thisMonthBill, costPerSend, numThisMonth)
+	return thisMonthBill - lastMonthBill
+}
 
-func main(){
-	fmt.Println("Hello Go!")
+func getBillForMonth(zcostPerSend, messagesSent int) {
+	bill = costPerSend * messagesSent
 }
