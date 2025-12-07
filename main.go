@@ -1,5 +1,6 @@
 package main
 
+// unfixed
 func monthlyBillIncrease(costPerSend, numLastMonth, numThisMonth int) int {
 	var lastMonthBill int
 	var thisMonthBill int
@@ -11,3 +12,4 @@ func monthlyBillIncrease(costPerSend, numLastMonth, numThisMonth int) int {
 func getBillForMonth(bill, costPerSend, messagesSent int) {
 	bill = costPerSend * messagesSent
 }
+
