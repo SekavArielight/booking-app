@@ -1,7 +1,7 @@
 package main
 
 // unfixed
-func monthlyBillIncrease(numLastMonth, numThisMonth int) int {
+func monthlyBillIncrease(costPerSend, numLastMonth, numThisMonth int) int {
 	var lastMonthBill int
 	var thisMonthBill int
 	lastMonthBill = getBillForMonth(costPerSend, numLastMonth)
